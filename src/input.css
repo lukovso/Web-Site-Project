@@ -1,0 +1,172 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+margin: 0;
+padding: 0;
+}
+.backgroundSection{
+background-image: url(../img/img.jpeg);
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+row-gap: 1.2rem;
+}
+.backgroundSection svg{
+    width: 70px;
+    height: 70px;
+    fill: rgb(297, 194, 13);
+}
+.backgroundSection h1{
+    color: rgb(297, 194, 13);
+}
+.backgroundSection p{
+    font-size: 25px;
+    color: white;
+}
+.sectionTrip{
+    background-image: url(../img/img3.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionTrip h3{
+    color: rgb(297, 194, 13);
+    text-align: center;
+
+}
+.sectionTrip .sectionTrip_Right{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+.sectionTrip .sectionTrip_Right a{
+    background-color: rgb(297, 194, 13);
+    text-decoration: none;
+    padding: .7rem;
+    color: black;
+    width: fit-content;
+}
+.sectionTrip .sectionTrip_Right a:hover{
+    color: white;
+}
+.sectionExperience{
+    background-image: url("../img/img2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sectionExperience h2{
+    color: rgb(297, 194, 13);
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.sectionExperience div img{
+height: 20rem;
+}
+.sectionExperience svg{
+    width: 50px;
+    height: 50px;
+    fill: rgb(297, 194, 13);   
+}
+.sectionExperience a{
+    background-color: rgb(297, 194, 13);
+    text-decoration: none;
+    padding: .7rem 1rem .7rem 1rem;
+    color: white;
+    width: fit-content;  
+    margin: 1rem;
+}
+.sectionExperience a:hover{
+    color: black;
+}
+.sectionFour{
+    background-image: url("../img/img1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sectionFour h2{
+    color: rgb(297, 194, 13);
+}
+.sectionNumber{
+    background-image: url("../img/img4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 80vh; */
+    padding: 7rem;
+}
+.sectionNumber .krug{
+    border-radius: 50%;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sectionPerson{
+    background-image: url("../img/img5.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sectionPerson svg{
+    width: 70px;
+    height: 70px;
+    fill: rgb(297, 194, 13); 
+}
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  footer{
+    background-image: url("../img/img6.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  footer h2{
+    color: rgb(297, 194, 13);
+  }
+  footer svg{
+    fill: rgb(297, 194, 13);
+    width: 25px;
+    height: 25px;
+    margin-top: 2rem;
+  }
+  footer svg:hover{
+    cursor: pointer;
+  }
+  footer .submit{
+    background-color: rgb(297, 194, 13);
+    padding: .5rem;
+    width: fit-content;
+  }
